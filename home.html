@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MUSF -ENTRANCE TO A UNIVERSE OF COMFORT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: rgb(242, 242, 242);
+        }
+
+        .video {
+
+            height: auto;
+        }
+
+        #myVideo {
+            position: fixed;
+
+
+
+            height: auto;
+
+
+        }
+
+        .content {
+            position: fixed;
+            bottom: 0;
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+            align-items: center;
+
+        }
+
+        #buttonm {
+            margin-left: 300px;
+        }
+
+        #buttonf {
+            margin-left: 800px;
+        }
+
+        @media only screen and (max-width: 800px) {
+            #myvideo {
+                max-width: 50%;
+                margin-left: 0px;
+                height: auto;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            #myvideo {
+                max-width: 100%;
+                margin-left: 0px;
+                height: auto;
+            }
+        }
+
+        .navbar {
+            margin-bottom: 0;
+            background-color: #ffffff;
+            z-index: 9999;
+            border: 0;
+            font-size: 18px !important;
+            line-height: 1.42857143 !important;
+            letter-spacing: 4px;
+            border-radius: 0;
+            font-family: Montserrat, sans-serif;
+        }
+
+        .navbar li a,
+        .navbar .navbar-brand {
+            color: rgb(0, 0, 0) !important;
+        }
+
+        .navbar-nav li a:hover,
+        .navbar-nav li.active a {
+            color: #001eff !important;
+            background-color: rgb(255, 255, 255) !important;
+        }
+
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: rgb(0, 0, 0) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop>
+        <source src="homepagevideo.mp4" type="video/mp4" autoplay muted loop>
+    </video>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="main.html">
+                    <img class="passion" src="imagess/mahabislogo.png" height="45" width="60"></a>
+                <a class="navbar-brand" href="main.html">MUSF</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="men.html">MEN</a></li>
+                    <li><a href="women.html">WOMEN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <a href="men.html">
+            <button id="buttonm" type="button" class="btn btn-primary">Shop for Men</button></a>
+        <a href="women.html">
+            <button id="buttonf" type="button" class="btn btn-danger">Shop for Women</button></a>
+    </div>
+</body>
+
+
+</html>
